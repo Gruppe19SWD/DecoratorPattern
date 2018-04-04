@@ -10,6 +10,14 @@ namespace DecoratorPattern
     {
         static void Main(string[] args)
         {
+            var testKaffe = new SugarDecorator(new MilkDecorator(new Espresso()));
+
+
+            Console.WriteLine(testKaffe.GetDescription());
+
+            var testKaffeasd = new SprinklesDecorator(testKaffe);
+            Console.WriteLine(testKaffeasd.GetDescription());
+            Console.ReadLine();
 
         }
     }

@@ -42,8 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DecoratorWithDrinkAdditions.cs" />
+    <Compile Include="Espresso.cs" />
+    <Compile Include="IDrink.cs" />
+    <Compile Include="MilkDecorator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SprinklesDecorator.cs" />
+    <Compile Include="SugarDecorator.cs" />
+    <Compile Include="Tea.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
