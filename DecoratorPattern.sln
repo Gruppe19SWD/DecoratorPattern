@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{22086681-C676-4F44-A33E-E623FE932BCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFCoffeeOrder", "WPFCoffeeOrder\WPFCoffeeOrder.csproj", "{E5D5E0EC-5E94-44B6-9136-F7945FCF30AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22086681-C676-4F44-A33E-E623FE932BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22086681-C676-4F44-A33E-E623FE932BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22086681-C676-4F44-A33E-E623FE932BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22086681-C676-4F44-A33E-E623FE932BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5D5E0EC-5E94-44B6-9136-F7945FCF30AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5D5E0EC-5E94-44B6-9136-F7945FCF30AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5D5E0EC-5E94-44B6-9136-F7945FCF30AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5D5E0EC-5E94-44B6-9136-F7945FCF30AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB3F3735-8D67-43A7-9FC4-15B5610F43D6}
+	EndGlobalSection
+EndGlobal
