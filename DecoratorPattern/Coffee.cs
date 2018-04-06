@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DecoratorPattern
 {
-    public class Espresso : IDrink
+    public class Coffee : IDrink
     {
         public double GetCost()
         {
@@ -15,7 +15,7 @@ namespace DecoratorPattern
 
         public string GetDescription()
         {
-            return "Espresso";
+            return "Coffee";
         }
     }
 }

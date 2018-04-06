@@ -11,7 +11,7 @@ namespace DecoratorPattern
     {
         static void Main(string[] args)
         {
-            var testKaffe = new SugarDecorator(new MilkDecorator(new Espresso()));
+            var testKaffe = new SugarDecorator(new MilkDecorator(new Coffee()));
 
 
             Console.WriteLine(testKaffe.GetDescription());
