@@ -10,5 +10,6 @@ namespace DecoratorPattern
     {
         string GetDescription();
         double GetCost();
+
     }
 }

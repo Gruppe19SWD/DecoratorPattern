@@ -8,11 +8,11 @@ namespace DecoratorPattern
 {
     public abstract class DrinkDecorator : IDrink
     {
-        private IDrink _idrink;
+        private IDrink _idrink = null;
         protected string _name = "Undefined";
         protected double _price = 0.0;
 
-        public DrinkDecorator(IDrink idrink)
+        protected DrinkDecorator(IDrink idrink)
         {
             _idrink = idrink;
         }
@@ -24,7 +24,7 @@ namespace DecoratorPattern
             
         public string GetDescription()
         {
-            return string.Format("{0},{1}", _idrink.GetDescription(), _name);
+            return string.Format("{0}, {1}", _idrink.GetDescription(), _name);
         }
 
 

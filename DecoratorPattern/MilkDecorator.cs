@@ -12,6 +12,8 @@ namespace DecoratorPattern
         {
             _name = "Milk";
             _price = 2;
+            
+
         }
     }
 }
