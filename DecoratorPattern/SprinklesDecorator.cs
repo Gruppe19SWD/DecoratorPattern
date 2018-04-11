@@ -14,5 +14,12 @@ namespace DecoratorPattern
             _price = 0.5;
         }
 
+        public override string GetDescription()
+        {
+            Console.ForegroundColor = ConsoleColor.Blue;
+            return base.GetDescription() + " WUHUU SPRINKLES";
+        }
+       
+
     }
 }

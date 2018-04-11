@@ -22,11 +22,9 @@ namespace DecoratorPattern
             return _idrink.GetCost() + _price;
         }
             
-        public string GetDescription()
+        public virtual string GetDescription()
         {
             return string.Format("{0}, {1}", _idrink.GetDescription(), _name);
         }
-
-
     }
 }
