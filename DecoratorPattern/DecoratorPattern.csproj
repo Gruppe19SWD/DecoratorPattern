@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DecoratorWithDrinkAdditions.cs" />
+    <Compile Include="DrinkDecorator.cs" />
     <Compile Include="Coffee.cs" />
     <Compile Include="IDrink.cs" />
     <Compile Include="MilkDecorator.cs" />
